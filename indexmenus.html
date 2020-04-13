@@ -2,6 +2,7 @@
 <html>
     <head>
       <link rel="stylesheet" href="ourstyles.css">
+      <link rel="stylesheet" href="menustyle.css">
         <title>Main Page</title>
     </head>
     <body>
@@ -9,6 +10,20 @@
       </script>
       <div class=gridcontainer>
         <div class="header">
+          <ul id="samenu">
+            <li><a href="#" 
+                onmouseover="menuopen('menu1')" 
+                onmouseout="menuclosetime()">Home</a>
+                <div id="menu1" 
+                    onmouseover="menucancelclosetime()" 
+                    onmouseout="menuclosetime()">
+                <a href="#">Adoption</a>
+                <a href="cutepuppies.html">Animal Photos</a>
+                </div>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
         <h2>Animal Kingdom</h2>
         <p>List of animal species</p>
         <a href="https://www.ispca.ie/" target="_blank">Visit ISPCA</a>

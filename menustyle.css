@@ -1,0 +1,49 @@
+#samenu
+{	margin: 0;
+	padding: 0;
+	z-index: 30}
+
+#samenu li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 16px arial}
+
+#samenu li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 5px 10px;
+	width: 100;
+	background: #49A3FF;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none}
+
+#samenu li a:hover
+{	background: darkblue}
+
+#samenu div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 2px solid #5970B2}
+
+	#samenu div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 6px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #2875DE;
+		font: 14px arial}
+
+	#samenu div a:hover
+	{	background: #49A3FF;
+		color: #FFF}
